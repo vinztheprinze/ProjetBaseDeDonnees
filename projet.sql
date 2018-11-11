@@ -83,7 +83,8 @@ CREATE TRIGGER trigger_reputation
 AFTER INSERT ON projet.reponse_votes FOR EACH ROW
 EXECUTE PROCEDURE projet.maj_reputaion();
 
-
+-- triger second 
+--
 
 --INSERT TABLE
 --Utilisateur
